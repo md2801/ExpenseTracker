@@ -1,0 +1,10 @@
+source venv/bin/activate# backend/requirements.txt
+# Install all dependencies with: pip install -r requirements.txt
+
+fastapi==0.111.0          # Web framework for building REST APIs
+uvicorn==0.29.0           # ASGI server to run the FastAPI app
+sqlalchemy==2.0.30        # ORM for database interaction
+pymysql==1.1.1            # MySQL driver (used by SQLAlchemy)
+pydantic==2.7.1           # Data validation for request/response schemas
+cryptography==42.0.7      # Required by PyMySQL for secure connections
+python-dotenv==1.0.1      # Optional: load environment variables from .env
